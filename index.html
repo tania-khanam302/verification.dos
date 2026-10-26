@@ -1,1 +1,117 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate of Proficiency Verification Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page">
+   <!-- <button class="menu" aria-label="Menu">☰</button> -->
+
+<button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+<button class="close-menu" id="closeBtn" aria-label="Close menu">×</button>
+<div class="page-overlay" id="pageOverlay"></div>
+    
+    
+    <main class="content">
+
+      <!-- Your own logo will go here -->
+     
+<div class="logo">
+  <img src="logo.jpg" alt=" logo">
+</div>
+
+      
+      <h1>Certificate of Proficiency Verification Result</h1>
+
+ 
+      <div class="certificate-details">
+        <div class="name-row row-gap">
+      <p class="number ">
+         The credentials supplied for CoP number 016.245063 are correct.
+      </p>
+        </div>
+
+  <div class=" name-row">
+      <p>RATING FORMING PART OF AN ENGINEERING WATCH</p>
+</div>
+        
+        <div class="name-row">
+          <p> The status of this certificate is</p>
+<p class="valid-btn">Valid</p>
+        </div>
+
+
+        <div class="row-gap name-row">
+   <p>DoS Registration No. :&nbsp</p>
+          <p class="number">2026.06.016.0474753</p>
+        </div>
+
+        <div class="name-row">
+          <p>Date of Issue :&nbsp</p>
+         <p class ="number">20269-2026</p>
+        </div>
+
+        <div class="name-row">
+          <p>Expiry Date :&nbsp </p>
+          <p class="number"> 16-09-2031</p>
+        </div>
+
+        <div class="name-row row-gap">
+          <p>Name of Seafarer :&nbsp</p>
+          <p class="name">MD SAMSULLAH</p>
+        </div>
+
+        <div class="name-row">
+          <p>Date of Birth :&nbsp</p>
+          <p class=" name number">25-11-2001</p>
+          
+        </div>
+
+        <div class="name-row">
+          <p>CDC No :&nbsp</p>
+          <p class=" name cdc-no number">C/O/13575</p>
+        </div>
+
+      </div>
+
+
+
+      
+     <!-- <nav class="page-links"> -->
+       <!-- <a href="index.html">Page 1</a> -->
+     <!--   <a href="page-2.html">Page 2</a> -->
+      <!--  <a href="page-3.html">Page 3</a> -->
+    <!--  </nav> -->
+
+     <!-- <p class="demo-note">DEMO PAGE — SAMPLE INFORMATION</p> -->
+
+    </main>
+  </div>
+
+
+
+
+  
+
+<script>
+  const menuBtn = document.getElementById("menuBtn");
+  const overlay = document.getElementById("pageOverlay");
+
+  menuBtn.addEventListener("click", function () {
+    const isOpen = overlay.classList.toggle("active");
+
+    menuBtn.textContent = isOpen ? "×" : "☰";
+    menuBtn.setAttribute(
+      "aria-label",
+      isOpen ? "Close menu" : "Open menu"
+    );
+  });
+</script>
+</body>
+</html>
