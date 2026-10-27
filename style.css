@@ -384,7 +384,7 @@ p{
   margin-bottom: 6px;
 }
   .valid-btn-content  {
-  padding : 28px;
+  padding : 24px;
     display :block ;
  }
  .valid-btn {
@@ -395,7 +395,7 @@ p{
  
 .mobile-dos{
   
- display: revert;
+ display: initial ;
 }
 }
 
