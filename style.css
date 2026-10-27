@@ -373,7 +373,10 @@ display: flex;
  .menu {
   top: 58px;
 }
-p{
+.name-row p{
+  margin-bottom: 6px;
+}
+.third-row p{
   margin-bottom: 6px;
 }
 .large-dos{
