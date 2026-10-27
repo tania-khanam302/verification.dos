@@ -345,8 +345,8 @@ display: flex;
 /* Small phones */
 @media (max-width: 360px) {
   .page {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
    .content h1 {
@@ -383,7 +383,7 @@ p{
   margin-bottom: 6px;
 }
   .valid-btn-content  {
-  padding : 0 30px;
+  padding : 28px;
     display :block ;
  }
  .valid-btn {
