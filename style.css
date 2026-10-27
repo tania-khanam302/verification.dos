@@ -362,6 +362,9 @@ display: flex;
 .third-row span{
   font-size: 18px;
 }
+ .valid-btn{
+  font-size: 14px;
+ }
 
 }
 
