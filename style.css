@@ -384,7 +384,7 @@ p{
   margin-bottom: 6px;
 }
   .valid-btn-content  {
-  padding : 0 24px;
+  /*padding : 0 24px; */
     display :block ;
  }
  .valid-btn {
@@ -394,7 +394,7 @@ p{
  }
  
 .mobile-dos{
-  
+ margin:0;
  display: initial ;
 }
 .mobile-dos p{
