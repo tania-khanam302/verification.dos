@@ -30,7 +30,7 @@ body {
   background: #82949c;
 }
 .page {
-  min-height: 100vh;
+/*  min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,12 +40,12 @@ body {
 
 
 .page {
-  position: relative;
-  isolation: isolate;
+  /*position: relative;
+  isolation: isolate;*/
   width: 100%;
-  min-height: 100vh;
+ /* min-height: 100vh;
   overflow: hidden;
-  padding: 72px 24px 32px;
+  padding: 72px 24px 32px;*/
   background-color: #82949c;
   background-image: url("bg.jpg");
   background-size: cover;
