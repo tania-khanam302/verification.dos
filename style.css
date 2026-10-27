@@ -224,23 +224,17 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  display: block;
+ /* display: block;*/
 }
-/*
+
 .logo {
   width: 140px;
   height: 140px;
-  margin: 0 auto 18px;
+  
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #ffffff;
-  font-size: 12px;
-  text-align: center;
+  
 }
-*/
+
 
 /* If using an image for the logo */
 /*
