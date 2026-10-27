@@ -237,8 +237,9 @@ display: flex;
   font-weight: 400;
   text-transform: uppercase;
 }
+
 .mobile-dos{
-display :none;
+  display: none ;
 }
 /* =========================================
    PAGE LINKS
@@ -382,8 +383,7 @@ p{
   margin-bottom: 6px;
 }
   .valid-btn-content  {
-  paddling : 0 30px;
-    
+  padding : 0 30px;
     display :block ;
  }
  .valid-btn {
