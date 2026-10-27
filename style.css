@@ -388,6 +388,7 @@ display: flex;
 }
   .valid-btn-content  {
   /*padding : 0 24px; */
+   margin:0;
     display :block ;
  }
  .valid-btn {
@@ -401,7 +402,8 @@ display: flex;
  display: initial ;
 }
 .mobile-dos p{
- margin-bottom: 2px;
+ margin:0;
+ margin-bottom: 0px;
 }
 
 
