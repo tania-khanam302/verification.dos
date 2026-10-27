@@ -57,7 +57,7 @@ body {
 /* =========================================
    MENU ICON
 ========================================= */
-menu {
+.menu {
   position: absolute;
   top: 38px;
   left: 30px;
@@ -185,10 +185,25 @@ display: flex;
   
 }
 
-.name-row .name {
+.third-row  {
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  text-align: center;
+  color: #f5f5f5;
+  line-height: 28px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.third-row  p{
+  font-size: 16px;
+    font-weight: 700;
+}
+.third-row span{
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
 }
 .row-gap{
   margin-top: 10px;
@@ -366,6 +381,10 @@ display: flex;
   .certificate-name,
   .detail-row {
     font-size: 15px;
+  }
+
+   .name-row {
+    font-size: 35px;
   }
 }
 
