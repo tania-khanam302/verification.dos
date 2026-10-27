@@ -323,7 +323,9 @@ display: flex;
     line-height: 1.4;
     overflow-wrap: anywhere;
   }
-
+.name-row{
+ font-size: 18px;
+}
   .page-links {
     gap: 8px;
     margin-top: 24px;
