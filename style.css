@@ -317,37 +317,11 @@ display: flex;
     line-height: 1.35;
   }
 
-  .confirmation {
-    font-size: 17px;
-    line-height: 1.5;
-    margin: 16px auto 8px;
-  }
-
-  .certificate-name {
-    font-size: 17px;
-    line-height: 1.5;
-    margin: 8px auto;
-  }
-
-  .certificate-details {
-    margin-top: 8px;
-  }
-
   .detail-row {
     padding: 7px 0;
     font-size: 17px;
     line-height: 1.4;
     overflow-wrap: anywhere;
-  }
-
-  .label,
-  .value {
-    font-weight: 700;
-  }
-
-  .value.valid {
-    font-size: inherit;
-    font-weight: 700;
   }
 
   .page-links {
@@ -360,9 +334,6 @@ display: flex;
     font-size: 12px;
   }
 
-  .demo-note {
-    font-size: 10px;
-  }
 }
 
 /* Small phones */
@@ -376,15 +347,8 @@ display: flex;
     font-size: 22px;
    }
 
-
-  .confirmation,
-  .certificate-name,
-  .detail-row {
-    font-size: 15px;
-  }
-
    .name-row {
-    font-size: 35px;
+    font-size: 18px;
   }
 }
 
