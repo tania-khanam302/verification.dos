@@ -375,13 +375,13 @@ display: flex;
 .name-row p{
   margin-bottom: 4px;
 }
- 
+ /*
  .name-row {
   line-height: 20px;
 }
  .third-row {
   line-height: 20px;
-}
+}*/
  
 .third-row p{
   margin-bottom: 4px;
