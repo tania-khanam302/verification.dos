@@ -230,8 +230,7 @@ display: flex;
   font-family: Arial, Helvetica, sans-serif; 
 }
 
-
-.third-row .cdc-no {
+ .cdc-no {
   color: #20b2aa;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -346,8 +345,8 @@ display: flex;
 /* Small phones */
 @media (max-width: 360px) {
   .page {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
    .content h1 {
@@ -374,17 +373,17 @@ display: flex;
   top: 58px;
 }
 .name-row p{
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 .third-row p{
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 .large-dos{
   display:none; 
    margin: 0;
  }
 .mobile-dos .number{
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
   .valid-btn-content  {
   /*padding : 0 24px; */
