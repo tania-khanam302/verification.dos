@@ -372,6 +372,9 @@ display: flex;
 p{
   margin-bottom: 6px;
 }
+ .large-dos{
+  display:none;
+ }
 }
 
 
