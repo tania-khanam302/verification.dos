@@ -350,8 +350,11 @@ display: flex;
    }
 
    .name-row {
-    font-size: 18px;
+    font-size: 19px;
   }
+.dos-regi{
+ display: block;
+}
 }
 
 
