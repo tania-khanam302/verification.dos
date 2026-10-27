@@ -391,7 +391,7 @@ display: flex;
    margin: 0;
  }
 .mobile-dos .number{
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
   .valid-btn-content  {
   /*padding : 0 24px; */
@@ -405,6 +405,7 @@ display: flex;
  }
  
 .mobile-dos{
+ margin-top:5px;
  
  display: initial ;
 }
