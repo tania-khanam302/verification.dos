@@ -300,12 +300,12 @@ display: flex;
     padding: 52px 12px 28px;
   }
 
-  .menu {
+ /* .menu {
     top: 14px;
     left: 14px;
     font-size: 26px;
   }
-
+*/
   .logo {
     width: 100px;
     height: 100px;
