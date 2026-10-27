@@ -114,7 +114,7 @@ body {
   padding: 72px 24px 32px;
 
   background-color: #82949c;
-  background-image: url("bg-img.png");
+  background-image: url("bg.jpg");
   
   background-size: cover;
   background-position: center;
@@ -220,22 +220,21 @@ body {
   overflow: hidden;
 }
 */
+/*
 .logo img {
   width: 100%;
   height: 100%;
   object-fit: contain;
- /* display: block;*/
+ 
 }
 
 .logo {
   width: 140px;
   height: 140px;
-  
 
-  
 }
 
-
+*/
 /* If using an image for the logo */
 /*
 .logo img {
@@ -245,6 +244,29 @@ body {
   object-fit: contain;
 }
 */
+
+
+
+
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto 24px;
+  
+display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  
+}
 /* =========================================
    MAIN HEADING
 ========================================= */
