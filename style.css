@@ -295,13 +295,58 @@ display: flex;
   }
 }
 
+/* =========================================
+   MOBILE
+========================================= */
+@media (max-width: 599px) {
+  .page {
+    min-height: 100vh;
+    padding: 52px 12px 28px;
+  }
 
+ /* .menu {
+    top: 14px;
+    left: 14px;
+    font-size: 26px;
+  }
+*/
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 18px;
+  }
+
+  .content h1 {
+    font-size: 22px;
+    line-height: 1.35;
+  }
+
+  .detail-row {
+    padding: 7px 0;
+    font-size: 17px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+.name-row{
+ font-size: 18px;
+}
+  .page-links {
+    gap: 8px;
+    margin-top: 24px;
+  }
+
+  .page-links a {
+    padding: 8px 11px;
+    font-size: 12px;
+  }
+
+}
 
 /* Small phones */
 @media (max-width: 360px) {
   .page {
-    padding-right: 6x;
-    padding-left: 6px;
+    padding-right: 15px;
+    padding-left: 15px      
   }
 
    .content h1 {
@@ -309,17 +354,17 @@ display: flex;
    }
 
    .name-row {
-    font-size: 19px;
+    font-size: 18px;
   }
 .dos-regi{
  display: block;
 }
  .third-row  p{
-  font-size: 19px;
+  font-size: 18px;
     font-weight: 700;
 }
 .third-row span{
-  font-size: 18px;
+  font-size: 17px;
 }
  .valid-btn{
   font-size: 14px;
@@ -340,6 +385,7 @@ display: flex;
  
 .third-row p{
   margin-bottom: 4px;
+  padding:0 15px;
 }
 .large-dos{
   display:none; 
@@ -351,32 +397,19 @@ display: flex;
   .valid-btn-content  {
   /*padding : 0 24px; */
    margin:0;
+    padding-top:10px;
     display :block ;
  }
  .valid-btn {
    width:58px;
    margin:auto;
- margin-left:0px;
-  margin-bottom:5px;
-   padding: 6px 0;
+   padding: 3px 0;
  }
  
 .mobile-dos{
  margin-top:5px;
-
  display: initial ;
 }
-.mobile-dos p{
- margin:0;
- margin-bottom: 0px;
-}
-
-
-
- 
-}
-
-
 .mobile-dos p{
  margin:0;
  margin-bottom: 0px;
