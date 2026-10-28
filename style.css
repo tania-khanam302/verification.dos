@@ -385,8 +385,9 @@ display: flex;
  
 .third-row p{
   margin-bottom: 4px;
-  padding:0 15px;
+  /*padding:0 15px; */
 }
+
 .large-dos{
   display:none; 
    margin: 0;
