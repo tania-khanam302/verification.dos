@@ -295,52 +295,7 @@ display: flex;
   }
 }
 
-/* =========================================
-   MOBILE
-========================================= */
-@media (max-width: 599px) {
-  .page {
-    min-height: 100vh;
-    padding: 52px 12px 28px;
-  }
 
- /* .menu {
-    top: 14px;
-    left: 14px;
-    font-size: 26px;
-  }
-*/
-  .logo {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto 18px;
-  }
-
-  .content h1 {
-    font-size: 22px;
-    line-height: 1.35;
-  }
-
-  .detail-row {
-    padding: 7px 0;
-    font-size: 17px;
-    line-height: 1.4;
-    overflow-wrap: anywhere;
-  }
-.name-row{
- font-size: 18px;
-}
-  .page-links {
-    gap: 8px;
-    margin-top: 24px;
-  }
-
-  .page-links a {
-    padding: 8px 11px;
-    font-size: 12px;
-  }
-
-}
 
 /* Small phones */
 @media (max-width: 360px) {
@@ -421,6 +376,16 @@ display: flex;
  
 }
 
+
+.mobile-dos p{
+ margin:0;
+ margin-bottom: 0px;
+}
+
+
+
+ 
+}
 
 
 
