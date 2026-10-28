@@ -396,7 +396,7 @@ display: flex;
 }
   .valid-btn-content  {
   /*padding : 0 24px; */
-   margin:0;
+   margin:auto;
     padding-top:10px;
     display :block ;
  }
