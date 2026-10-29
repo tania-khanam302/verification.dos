@@ -1,30 +1,48 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Certificate Verification</title>
 </head>
 <body>
-  <h2>Certificate Verification</h2>
-  <p>Certificate No: <span id="cert"></span></p>
+  <h2>Certificate Verification Result</h2>
   <p id="result"></p>
 
   <script>
+    const certificates = {
+      "1001": {
+        name: "Tania Khanam",
+        status: "Valid"
+      },
+      "1002": {
+        name: "Rahim Ahmed",
+        status: "Valid"
+      },
+      "1003": {
+        name: "Karim Hasan",
+        status: "Invalid"
+      }
+    };
+
     const params = new URLSearchParams(
       window.location.search
     );
     const cert = params.get("cert");
+    const result = document.getElementById("result");
 
-    document.getElementById("cert").textContent =
-      cert || "No certificate number provided";
+    if (certificates[cert]) {
+      const data = certificates[cert];
 
-    document.getElementById("result").textContent =
-      cert
-        ? "Number received. Verification is not yet implemented."
-        : "Please provide a certificate number.";
+      result.textContent =
+        "Certificate No: " + cert +
+        " | Name: " + data.name +
+        " | Status: " + data.status;
+    } else {
+      result.textContent =
+        "Certificate not found";
+    }
   </script>
 </body>
 </html>
