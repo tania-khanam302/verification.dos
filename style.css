@@ -87,12 +87,12 @@ body {
 .close-menu {
   display: none;
   position: fixed;
-  top: 18px;
-  right: 60px;
+    top: 38px;
+  left: 30px;
   left: auto;
   z-index: 1001;
   color: #fff;
-  font-size: 34px;
+  font-size: 22px;
   line-height: 1;
   border: none;
   background: transparent;
@@ -370,6 +370,9 @@ display: flex;
   font-size: 14px;
  }
  .menu {
+  top: 58px;
+}
+ .close-menu {
   top: 58px;
 }
 .name-row p{
