@@ -1,1 +1,117 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+<link rel="icon" type="image/png" href="fav.png">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <div class="page">
+   <!-- <button class="menu" aria-label="Menu">☰</button> -->
+
+<button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+<button class="close-menu" id="closeBtn" aria-label="Close menu">×</button>
+<div class="page-overlay" id="pageOverlay"></div>
+  
+    <main class="content">
+<div class="logo">
+  <img src="logo.png" alt=" logo">
+</div>
+
+      
+      <h1>Loremloremm of Loremloremm Loremloremlo Result</h1>
+      <div class="certificate-details">
+        
+        <div class="name-row row-gap">
+      <p class="number ">The credentials supplied for CoP number ***.****** are correct.</p>
+        </div>
+
+  <div class=" name-row">
+      <p>RATING FORMING PART OF AN ENGINEERING WATCH</p>
+</div>
+        
+        <div class="name-row valid-btn-content">
+          <p> Lor Loremm of this loremloremm is</p>
+<p class="valid-btn">Valid</p>
+        </div>
+
+        <div class="row-gap name-row large-dos">
+   <p>LoR Registration No. :&nbsp</p>
+         <p class="number">****.**.***.*******</p> 
+        </div>
+        
+        <div class= "mobile-dos">
+<div class="row-gap name-row">
+   <p>LoR Registration No. :&nbsp</p>
+        </div>
+<div class=" name-row">
+   <p class="number">****.**.***.*******</p>
+        </div>
+      </div>
+        
+        <div class="name-row">
+          <p>Date of Issue :&nbsp</p>
+         <p class ="number">*-*</p>
+        </div>
+
+        <div class="name-row">
+          <p>Expiry Date :&nbsp </p>
+          <p class="number"> *-*-*</p>
+        </div>
+
+        <div class="third-row row-gap">
+          <p>Name of lorem :&nbsp</p>
+          <span class="name">Lorem Lorem</span>
+        </div>
+
+        <div class="third-row">
+          <p>Date of Birth :&nbsp</p>
+          <span class=" name number">*-*-*</span>
+          
+        </div>
+
+        <div class="third-row">
+          <p>lorem :&nbsp</p>
+          <span class=" name cdc-no number">C/O/*</span>
+                                               
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+
+
+
+
+  
+
+<script>
+  const menuBtn = document.getElementById("menuBtn");
+  const overlay = document.getElementById("pageOverlay");
+
+  menuBtn.addEventListener("click", function () {
+    const isOpen = overlay.classList.toggle("active");
+
+    menuBtn.textContent = isOpen ? "×" : "☰";
+    menuBtn.setAttribute(
+      "aria-label",
+      isOpen ? "Close menu" : "Open menu"
+    );
+  });
+</script>
+
+  
+</body>
+</html>
+
+
+
+
