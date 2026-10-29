@@ -341,7 +341,19 @@ display: flex;
   }
 
 }
+/* Small phones */
+@media (max-width: 420px) {
+  .page {
+    padding-right: 5px;
+    padding-left: 5px      
+  }
 
+  
+ .large-dos{
+  display:none; 
+   margin: 0;
+ }
+}
 /* Small phones */
 @media (max-width: 360px) {
   .page {
@@ -392,10 +404,7 @@ display: flex;
   /*padding:0 15px; */
 }
 
-.large-dos{
-  display:none; 
-   margin: 0;
- }
+
 .mobile-dos .number{
   margin-bottom: 6px;
 }
