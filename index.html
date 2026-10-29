@@ -104,20 +104,32 @@
 
   
 
+
 <script>
   const menuBtn = document.getElementById("menuBtn");
+  const closeBtn = document.getElementById("closeBtn");
   const overlay = document.getElementById("pageOverlay");
 
-  menuBtn.addEventListener("click", function () {
-    const isOpen = overlay.classList.toggle("active");
+  function openMenu() {
+    overlay.classList.add("active");
+    closeBtn.classList.add("active");
 
-    menuBtn.textContent = isOpen ? "×" : "☰";
-    menuBtn.setAttribute(
-      "aria-label",
-      isOpen ? "Close menu" : "Open menu"
-    );
-  });
+    menuBtn.setAttribute("aria-expanded", "true");
+    closeBtn.setAttribute("aria-label", "Close menu");
+  }
+
+  function closeMenu() {
+    overlay.classList.remove("active");
+    closeBtn.classList.remove("active");
+
+    menuBtn.setAttribute("aria-expanded", "false");
+  }
+
+  menuBtn.addEventListener("click", openMenu);
+  closeBtn.addEventListener("click", closeMenu);
+  overlay.addEventListener("click", closeMenu);
 </script>
+
 
   
 </body>
