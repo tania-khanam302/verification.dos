@@ -374,6 +374,7 @@ display: flex;
 }
  .close-menu {
   top: 58px;
+  right :20px;
 }
 .name-row p{
   margin-bottom: 4px;
