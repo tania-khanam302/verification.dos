@@ -88,7 +88,7 @@ body {
   display: none;
   position: fixed;
     top: 38px;
-  left: 30px;
+  right: 30px;
   left: auto;
   z-index: 1001;
   color: #fff;
